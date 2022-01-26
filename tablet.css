@@ -1,0 +1,95 @@
+header{
+    margin-top: 4rem;
+}
+
+header h1 .title-logo{
+    font-size: 2.6rem;
+}
+
+header h1 .title-logo::first-letter{
+    font-size: 3.6rem;
+}
+
+header h1 .subtitle-logo{
+    font-size: 1.5rem;
+}
+
+header figure{
+    position: absolute;
+    width: 20rem;
+    margin: 0 auto;
+    top: 17rem;
+}
+
+.languages{
+    grid-template-columns: auto auto;
+    height: 32.5rem;
+    margin: 0 auto;
+    max-width: 54.6rem;
+}
+
+.mark{
+    position: relative;
+    top: 0;
+}
+
+.mark a div{
+    flex-direction: row;
+
+}
+
+.mark a div span{
+    margin:0 .2rem        
+}
+
+.spanish{
+    right: 35%;
+}
+
+.chino{
+    right: 68%;
+}
+
+.aleman{
+    right:75%;
+}
+
+.japones{
+    right: 68%;
+}
+
+.portugues{
+    right: 35%;
+}
+
+.ingles{
+    left: 35%;
+}
+
+.ruso{
+    left: 68%;
+}
+
+.frances{
+    left:75%;
+}
+
+.italiano{
+    left: 68%;
+}
+
+.polski{
+    left: 35%;
+}
+
+.searchbar{
+    order: 2;
+}
+.search-rectangle{
+    max-width: 39rem;
+}
+
+.wikigroup-buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
